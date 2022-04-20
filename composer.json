@@ -1,5 +1,5 @@
 {
-    "name": "codenco-dev/nova-grid-system",
+    "name": "amukhin-cyberhull/nova-grid-system",
     "description": "A Laravel Nova tool to have a grid system",
     "keywords": [
         "laravel",
@@ -7,12 +7,23 @@
         "grid",
         "layout"
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
     "license": "MIT",
     "authors": [
         {
             "name": "Dominic THOMAS",
             "email": "dthomas@codenco.io",
             "role": "Developer"
+        },
+        {
+            "name": "Andrey Mukhin",
+            "email": "centgart@gmail.com",
+            "role": "Contributor"
         }
     ],
     "require": {
